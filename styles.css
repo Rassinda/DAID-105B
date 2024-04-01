@@ -1,0 +1,73 @@
+.head, .foot {
+
+  color: black;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: bisque;
+padding: 1%;
+
+  
+}
+
+.main {
+  display: flex; 
+  height: 90vh; 
+
+}
+
+.nav {
+  display: flex;
+  height: 90vh;
+  width: 20%; 
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+
+
+
+
+
+
+  background-color: lightgoldenrodyellow; 
+}
+
+.article {  height: 90vh;
+  display: flex;
+  width: 50%; 
+  background-color:beige; 
+
+
+}
+
+.aside {
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  width: 30%; 
+  background-color: lightgrey; 
+  height: 90vh;
+
+
+
+}
+.subhead {
+  text-align: center;
+  color:navy;
+  background: none;
+  }
+  section {
+  margin: 5%
+
+  }
+.subfoot{
+text-align: center;
+font-size: 0.8em;
+}
+
+.aside, .article, .nav {
+  border-style: solid;
+  border-width: 7px;
+  border-color: white;
+
+}
+h2 {text-align: center;
+color: navy;}
